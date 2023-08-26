@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="horizontal" >
+    <RadioGroup android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" android:visibility="gone" android:id="@+id/filterLibraryGroup">
+        <RadioButton android:layout_height="wrap_content" android:paddingRight="15dp" android:checked="true" android:paddingBottom="15dp" android:paddingTop="15dp" android:layout_width="wrap_content" android:id="@+id/filterPublic" android:text="@string/public_library" ></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:paddingRight="15dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:layout_width="wrap_content" android:id="@+id/filterPrivate" android:text="@string/private_library" ></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:paddingRight="15dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:layout_width="wrap_content" android:id="@+id/filterSymbolstix" android:text="@string/symbolstix" ></RadioButton>
+    </RadioGroup>
+    <RadioGroup android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" android:id="@+id/filterWebGroup">
+        <RadioButton android:id="@+id/filterAll" android:layout_height="wrap_content" android:text="@string/all" android:layout_width="wrap_content" android:checked="true" android:paddingRight="15dp" android:paddingTop="15dp" android:paddingBottom="15dp"></RadioButton>
+        <RadioButton android:id="@+id/filterBW" android:layout_height="wrap_content" android:text="@string/bw" android:layout_width="wrap_content" android:paddingRight="15dp" android:paddingTop="15dp" android:paddingBottom="15dp"></RadioButton>
+        <RadioButton android:id="@+id/filterPhoto" android:layout_height="wrap_content" android:text="@string/photo" android:layout_width="wrap_content" android:paddingRight="15dp" android:paddingTop="15dp" android:paddingBottom="15dp"></RadioButton>
+        <RadioButton android:id="@+id/filterDRawing" android:layout_height="wrap_content" android:text="@string/drawing" android:layout_width="wrap_content" android:paddingRight="15dp" android:paddingTop="15dp" android:paddingBottom="15dp"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/filterFaces" android:text="@string/faces" android:paddingRight="15dp" android:paddingTop="15dp" android:paddingBottom="15dp"></RadioButton>
+    </RadioGroup>
+	<ListView 
+		android:layout_width="match_parent" android:layout_height="match_parent"
+		android:id="@+id/searchList">
+	</ListView>
+</LinearLayout>

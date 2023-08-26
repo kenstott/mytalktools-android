@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/color_band"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="#ff0000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/listPreferredItemHeight" >
+        <!-- android:background="@drawable/touch_selector" -->
+
+
+        <ImageView
+            android:contentDescription="@string/expand_contents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/expand_contents"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_media_play"
+            android:paddingStart="5dp"
+            android:paddingEnd="50dp" />
+
+        <TextView
+            android:id="@+id/board_contents_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:background="#ffffff"
+            android:padding="5dp"
+            android:layout_margin="16dp"
+            android:layout_centerVertical="true"
+            android:text="@string/_88"
+            android:layout_alignParentEnd="true"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:contentDescription="@string/cell_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:id="@+id/content_url"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/content_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceListItem"
+            android:text="@string/author"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="25dp"
+            android:layout_centerVertical="true"
+            android:padding="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            android:layout_below="@id/content_text"/>
+
+    </RelativeLayout>
+</LinearLayout>

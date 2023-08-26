@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/boardSortWrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/boardSort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Spinner
+            android:id="@+id/boardSortLevel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:entries="@array/BoardSortNames"
+            android:prompt="@string/level_1" />
+
+        <Spinner
+            android:id="@+id/boardSortLevel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:entries="@array/BoardSortNames"
+            android:prompt="@string/level_2" />
+
+        <Spinner
+            android:id="@+id/boardSortLevel3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:entries="@array/BoardSortNames"
+            android:prompt="@string/level_3" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/boardSortDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/boardSort"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text="@string/done_button" />
+
+</RelativeLayout>

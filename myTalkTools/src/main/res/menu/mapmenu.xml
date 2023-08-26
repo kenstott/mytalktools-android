@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ExitMap"
+        android:alphabeticShortcut="a"
+        android:enabled="true"
+        android:icon="@drawable/ic_menu_home"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/exit"
+        android:visible="true"></item>
+    <item
+        android:id="@+id/FindPlace"
+        android:alphabeticShortcut="a"
+        android:enabled="true"
+        android:icon="@drawable/ic_menu_search"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/find_place"
+        android:visible="true"></item>
+    <item
+        android:id="@+id/AddLocation"
+        android:alphabeticShortcut="a"
+        android:enabled="true"
+        android:icon="@drawable/ic_menu_add"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/add_location"
+        android:visible="true"></item>
+
+</menu>

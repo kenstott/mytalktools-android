@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:orientation="horizontal" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- Video player -->
+<VideoView android:id="@+id/VideoView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center">
+</VideoView>
+</FrameLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@id/sentenceBarLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@id/sentenceBarPlay"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/blue_play"
+            android:text="" />
+		<LinearLayout
+		    android:id="@+id/sentenceBarLinear"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/sentenceBarDelete"
+            android:layout_toRightOf="@id/sentenceBarPlay"
+            android:orientation="horizontal"
+            android:ellipsize="middle" >
+		<HorizontalScrollView
+		    android:id="@+id/sentenceBarHorizontal"
+       	    android:layout_width="match_parent"
+        	android:layout_height="wrap_content">
+        	<LinearLayout
+		    	android:id="@+id/sentenceBarLinearLayout"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:divider="@drawable/one"
+		        android:dividerPadding="8dip"
+		        android:showDividers="middle"
+	            android:ellipsize="middle" />
+        </HorizontalScrollView>
+        <TextView
+            android:id="@id/sentenceBarText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:lines="2"
+            android:paddingBottom="0dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+        <Button
+            android:id="@id/sentenceBarDelete"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/red_delete"
+            android:text="" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@id/mainGrid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        android:gravity="center"
+        android:horizontalSpacing="10.0dip"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10.0dip" />
+</LinearLayout>

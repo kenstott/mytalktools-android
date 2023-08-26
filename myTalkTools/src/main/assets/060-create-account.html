@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable = no"/>
+    <title>Create a MyTalk Account</title>
+    <style type="text/css">
+        body {
+        background: url('gradient-blue-white.jpg') repeat-x top center;
+        padding: 15px 20px;
+        margin: 0;
+        font-family: Helvetica, Arial, sans-serif;
+        }
+
+        div {
+        margin: 0;
+        padding: 0;
+        }
+
+        p {
+        font-size: 15px;
+        line-height: 1.5;
+        margin: 0 auto;
+        padding: 0;
+        }
+
+        .blueHeader {
+        color: #1160a5;
+        font-weight: normal;
+        font-size: 12px;
+        margin: 18px 0 4px;
+        text-transform: uppercase;
+        text-align: left;
+        }
+
+        .backgroundButton {
+        background: url('btn-gray.png') no-repeat;
+        font-weight: bold;
+        font-variant: normal;
+        color: #324F85;
+        margin: 28px auto 0;
+        padding-top: 12px;
+        height: 40px;
+        width: 267px;
+        text-align: center;
+        }
+
+        .backgroundButtonGreen {
+        background: url('btn-green.png') no-repeat;
+        font-weight: bold;
+        color: #324F85;
+        margin: 0 auto;
+        padding-top: 12px;
+        height: 40px;
+        width: 269px;
+        text-align: center;
+        }
+
+        .roundRect {
+        border-radius: 8px;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid #bbbbbb;
+        }
+
+        .roundRectTop {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid #bbbbbb;
+        }
+
+        .roundRectBottom {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        padding: 9px 10px 9px;
+        background-color: white;
+        border: 1px solid #bbbbbb;
+        border-top: none;
+
+        }
+
+        .labelText {
+        width: 90px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 5px;
+        }
+
+        .formField {
+        width: 150px;
+        -webkit-appearance: none;
+        border: 0 none #fff;
+        padding: 5px 0;
+        }
+
+        .noteText {
+        font-size: 10px;
+        color: #a3a3a3;
+        text-align: center;
+        margin-top: 8px;
+        margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1 class="blueHeader">Who will use this app to communicate?</h1>
+
+    <div class="roundRect">
+        <div class="labelText">Name</div>
+        <div><label>
+            <input name="fieldName" type="text" class="formField"/>
+        </label></div>
+    </div>
+    <h1 class="blueHeader">Enter a password for this user</h1>
+
+    <div class="roundRectTop">
+        <div class="labelText">Password</div>
+        <div><label>
+            <input name="fieldPassword" type="text" class="formField"/>
+        </label></div>
+    </div>
+    <div class="roundRectBottom">
+        <div class="labelText">Password</div>
+        <div><label>
+            <input name="fieldPasswordConfirm" type="text" class="formField"
+                   style="padding-top: 10px;"/>
+        </label></div>
+    </div>
+    <h1 class="blueHeader">Parent, Caretaker or Clinician Info</h1>
+
+    <div class="roundRectTop">
+        <div class="labelText">Name</div>
+        <div><label>
+            <input name="fieldNameCaretaker" type="text" class="formField"/>
+        </label></div>
+    </div>
+    <div class="roundRectBottom">
+        <div class="labelText">Email</div>
+        <div><label>
+            <input name="fieldEmail" type="text" class="formField" style="padding-top: 10px;"/>
+        </label></div>
+    </div>
+    <p class="noteText"> We will never share your information.</p>
+
+    <div class="backgroundButtonGreen">Done</div>
+</div>
+</body>
+</html>

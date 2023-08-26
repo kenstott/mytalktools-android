@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/free_license"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/free_use_this_device_for_reading_only" />
+
+    <Button
+        android:id="@+id/full_license"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/usd_99_full_license_author_using_this_device" />
+
+    <Button
+        android:id="@+id/full_plus_family_license"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/usd_174_full_license_with_family_workspace_author_on_this_device_and_author_using_your_web_browser" />
+
+    <Button
+        android:id="@+id/full_plus_professional_license"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/usd_199_full_license_with_professional_workspace_author_on_this_device_and_author_using_your_web_browser_for_multiple_clients" />
+</LinearLayout>

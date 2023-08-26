@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:key="authoringCategory"
+        android:title="Authoring"
+        android:summary="Set Authoring options"
+        >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="externalStorage"
+            android:summary="@string/use_external_storage_explain"
+            android:title="@string/use_external_storage" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="downloadMedia"
+            android:summary="@string/save_media_explain"
+            android:title="@string/save_media" />
+        <ListPreference
+            android:defaultValue="Goosen"
+            android:entries="@array/backgroundColors"
+            android:entryValues="@array/backgroundCodes"
+            android:key="colorKey"
+            android:summary="@string/color_key_explain"
+            android:title="@string/colorKey" />
+
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="displayCategory"
+        android:title="Display"
+        android:summary="Set Display options"
+        >
+        <ListPreference
+            android:entries="@array/gridColors"
+            android:entryValues="@array/gridColorValues"
+            android:key="colorScheme"
+            android:summary="@string/color_scheme_explain"
+            android:title="@string/color_scheme" />
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/maximumRows"
+            android:entryValues="@array/maximumRowValues"
+            android:key="maximumRows"
+            android:summary="@string/maximum_rows_explain"
+            android:title="@string/maximum_rows" />
+        <ListPreference
+            android:defaultValue="15"
+            android:entries="@array/defaultFontSize"
+            android:entryValues="@array/defaultFontSizeValues"
+            android:key="defaultFontSize"
+            android:summary="@string/default_font_size_explain"
+            android:title="@string/default_font_size" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="userMarginForColorCoding"
+            android:summary="@string/use_margin_for_color_coding_explain"
+            android:title="@string/use_margin_for_color_coding" />
+        <ListPreference
+            android:entries="@array/marginWidthList"
+            android:entryValues="@array/marginWidthValues"
+            android:key="marginWidth"
+            android:summary="@string/margin_width_explain"
+            android:title="@string/marginWidth" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="hotspotsVisible"
+            android:summary="@string/hotspots_visible_summary"
+            android:title="@string/hotspots_visible_title" />
+
+
+
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="ttsCategory"
+        android:title="Text-to-Speech"
+        android:summary="Set TTS options"
+        >
+        <ListPreference
+            android:defaultValue="com.google.android.tts"
+            android:key="ttsEngine"
+            android:title="TTS Engine" />
+        <ListPreference
+            android:defaultValue="eng-usa"
+            android:key="primaryTTS"
+            android:title="Primary TTS Voice" />
+        <ListPreference
+            android:defaultValue="eng-usa"
+            android:key="secondaryTTS"
+            android:title="Secondary TTS Voice" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:key="tts"
+            android:summary="@string/basic_text_to_speech_explain"
+            android:title="@string/basic_text_to_speech" />
+
+
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="switchCategory"
+        android:title="Switch/Scanning"
+        android:summary="Set Switch/Scanning options"
+        >
+        <ListPreference
+            android:defaultValue="none"
+            android:entries="@array/scanSwitches"
+            android:entryValues="@array/scanSwitchValues"
+            android:key="scanSwitch"
+            android:summary="@string/scan_switches_title"
+            android:title="@string/scan_switch_title" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/autoScanInterval"
+            android:entryValues="@array/autoScanIntervalValues"
+            android:key="autoScanInterval"
+            android:summary="@string/auto_scan_interval_summary"
+            android:title="@string/auto_scan_interval_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="autoStartAutoScan"
+            android:summary="@string/auto_start_auto_scan_summary"
+            android:title="@string/auto_start_auto_scan_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="scanByRow"
+            android:summary="@string/row_scanning_summary"
+            android:title="@string/row_scanning_title" />
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/autoScanLoops"
+            android:entryValues="@array/autoScanLoopValues"
+            android:key="autoScanLoops"
+            android:summary="@string/auto_scan_loops_summary"
+            android:title="@string/auto_scan_loops_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="auditoryScanning"
+            android:summary="@string/auditory_scanning_summary"
+            android:title="@string/auditory_scanning_title" />
+
+
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="touchCategory"
+        android:title="Touch"
+        android:summary="Set Touch options"
+        >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="phraseModeCategory"
+        android:title="Phrase Mode"
+        android:summary="Set Phrase Mode options"
+        >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="phraseMode"
+            android:summary="@string/phrase_mode_explain"
+            android:title="@string/phrase_mode" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:enabled="true"
+            android:key="phraseImage"
+            android:summary="@string/phrase_image_explain"
+            android:title="@string/phrase_image" />
+
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="addressesModeCategory"
+        android:title="Messaging"
+        android:summary="Set Messaging options"
+        >
+        <EditTextPreference
+            android:key="defaultEmailRecipient"
+            android:title="@string/default_email_recipient"
+            android:summary="@string/default_email_recipient_summary"/>
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/messageTypes"
+            android:entryValues="@array/messageTypeValues"
+            android:key="messageType"
+            android:summary="@string/messageTypeSummary"
+            android:title="@string/MessageTypeTitle" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/actionTypes"
+            android:entryValues="@array/actionTypeValues"
+            android:key="actionPreference"
+            android:summary="Always use facebook messenger, or let the user choose for each action."
+            android:title="Action Preference" />
+
+
+
+
+    </PreferenceScreen>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="zoomPictures"
+        android:summary="@string/zoom_pictures_explain"
+        android:title="@string/zoom_pictures" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/unzoomInterval"
+        android:entryValues="@array/unzoomIntervalValues"
+        android:key="unzoomInterval"
+        android:summary="@string/unzoom_interval_explain"
+        android:title="@string/unzoom_interval" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="autoWordVariation"
+        android:summary="@string/auto_word_variation_summary"
+        android:title="@string/auto_word_variation" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="autoSpeechParts"
+        android:summary="@string/auto_speech_parts_summary"
+        android:title="@string/auto_speech_parts" />
+
+
+</PreferenceScreen>

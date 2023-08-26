@@ -1,0 +1,360 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="autoScanInterval">
+        <item>නැත</item>
+        <item>1 තත්පර</item>
+        <item>2 තත්පර</item>
+        <item>3 තත්පර</item>
+        <item>4 තත්පර</item>
+        <item>5 තත්පර</item>
+    </string-array>
+    <string-array name="autoScanIntervalValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="scanSwitches">
+        <item>නැත</item>
+        <item>1 බොත්තම මත තිරය</item>
+        <item>2 බොත්තම මත තිරය</item>
+        <item>AbleNet Hardware Switch</item>
+        <item>RJ Cooper Hardware Switch</item>
+    </string-array>
+    <string-array name="scanSwitchValues">
+        <item>නැත</item>
+        <item>1-බොත්තම</item>
+        <item>2-බොත්තම</item>
+        <item>ablenet</item>
+        <item>rjcooper</item>
+    </string-array>
+    <string-array name="maximumRows">
+        <item>1 පේළිය</item>
+        <item>2 පේළි</item>
+        <item>3 පේළි</item>
+        <item>4 පේළි</item>
+        <item>5 පේළි</item>
+        <item>6 පේළි</item>
+        <item>7 පේළි</item>
+        <item>8 පේළි</item>
+        <item>9 පේළි</item>
+        <item>10 පේළි</item>
+    </string-array>
+    <string-array  name="maximumRowValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="autoScanLoops">
+        <item>Zero</item>
+        <item>වරක්</item>
+        <item>දෙවරක්</item>
+        <item>තුන් වරක්</item>
+        <item>හතර වතාවක්</item>
+        <item>පහයි</item>
+    </string-array>
+    <string-array  name="autoScanLoopValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array  name="gridColors">
+        <item>සුදු පෙරමුනක්,කළු පසුබිමක</item>
+        <item>කළු පෙරමුනක්, සුදු පසුබිම</item>
+    </string-array>
+    <string-array  name="gridColorValues">
+        <item>සුදු,කළු</item>
+        <item>කළු,සුදු</item>
+    </string-array>
+    <string-array  name="backgroundColors">
+        <item>Goosen\'s Coding</item>
+        <item>Fitzgerald\'s Coding</item>
+    </string-array>
+    <string-array  name="backgroundCodes">
+        <item>Goosen</item>
+        <item>Fitzgerald</item>
+    </string-array>
+    <string-array  name="goosensCodes">
+        <item>පෙරනිමි</item>
+        <item>කළු</item>
+        <item>තද අළු</item>
+        <item>ලා අළු</item>
+        <item>සුදු</item>
+        <item>අළු</item>
+        <item>ගබ්සා</item>
+        <item>ඉඟි සහ locator වචනය</item>
+        <item>උච්චාරණ සහ මැසීම්</item>
+        <item>සයන්</item>
+        <item>නිත්ය පදවි නාම ඇතුළුව ස්වර පවා</item>
+        <item>මැජෙන්ටා</item>
+        <item>wh-questions, exclamations, pronouns, ඍණ වචන, සමාජ අදහස්, විවිධාකාර</item>
+        <item>දම්</item>
+        <item>බ්රවුන්</item>
+        <item>පැහැදිලිව</item>
+        <item>රතු</item>
+    </string-array>
+    <string-array  name="fitzgeraldsCodes">
+        <item>පෙරනිමි</item>
+        <item>කළු</item>
+        <item>තද අළු</item>
+        <item>ලා අළු</item>
+        <item>විවිධාකාර</item>
+        <item>අළු</item>
+        <item>රතු</item>
+        <item>ගබ්සා</item>
+        <item>උච්චාරණ සහ මැසීම්</item>
+        <item>සයන්</item>
+        <item>කහ</item>
+        <item>සමාජ</item>
+        <item>නාම පද</item>
+        <item>දම්</item>
+        <item>බ්රවුන්</item>
+        <item>පැහැදිලිව</item>
+        <item>රතු</item>
+    </string-array>
+    <string-array  name="fontColor">
+        <item>පෙරනිමි</item>
+        <item>කළු</item>
+        <item>තද අළු</item>
+        <item>ලා අළු</item>
+        <item>සුදු</item>
+        <item>අළු</item>
+        <item>රතු</item>
+        <item>කොළ</item>
+        <item>නිල්</item>
+        <item>සයන්</item>
+        <item>කහ</item>
+        <item>මැජෙන්ටා</item>
+        <item>තැඹිලි</item>
+        <item>දම්</item>
+        <item>බ්රවුන්</item>
+        <item>පැහැදිලිව</item>
+        <item>රතු</item>
+    </string-array>
+    <string-array  name="unzoomInterval">
+        <item>ඕෆ්</item>
+        <item>1 තත්පර</item>
+        <item>2 තත්පර</item>
+        <item>3 තත්පර</item>
+        <item>4 තත්පර</item>
+        <item>5 තත්පර</item>
+    </string-array>
+    <string-array  name="unzoomIntervalValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array  name="defaultFontSize">
+        <item>පෙරනිමි</item>
+        <item>10 pixels</item>
+        <item>11 pixels</item>
+        <item>12 pixels</item>
+        <item>13 pixels</item>
+        <item>14 pixels</item>
+        <item>15 pixels</item>
+        <item>20 pixels</item>
+        <item>25 pixels</item>
+        <item>30 pixels</item>
+        <item>35 pixels</item>
+        <item>40 pixels</item>
+        <item>45 pixels</item>
+        <item>50 pixels</item>
+        <item>55 pixels</item>
+        <item>60 pixels</item>
+    </string-array>
+    <string-array  name="defaultFontSizeValues">
+        <item>0</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="messageTypes">
+        <item>පරිශීලකයා තෝරා ගනී</item>
+        <item>පෙළ</item>
+        <item>රූප</item>
+        <item>පින්තූර සහ පෙළ</item>
+    </string-array>
+    <string-array name="messageTypeValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="actionTypes">
+        <item>පරිශීලකයා තෝරා ගනී</item>
+        <item>Facebook Messenger</item>
+    </string-array>
+    <string-array name="actionTypeValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array  name="marginWidthList">
+        <item>0</item>
+        <item>5 pixels</item>
+        <item>10 pixels</item>
+        <item>15 pixels</item>
+        <item>20 pixels</item>
+        <item>25 pixels</item>
+        <item>30 pixels</item>
+        <item>35 pixels</item>
+        <item>40 pixels</item>
+        <item>45 pixels</item>
+        <item>50 pixels</item>
+        <item>55 pixels</item>
+        <item>60 pixels</item>
+    </string-array>
+    <string-array  name="marginWidthValues">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+    </string-array>
+    <string-array  name="numberColumns">
+        <item>1 Column</item>
+        <item>2 Column</item>
+        <item>3 Column</item>
+        <item>4 Column</item>
+        <item>5 Column</item>
+        <item>6 Column</item>
+        <item>7 Column</item>
+        <item>8 Column</item>
+        <item>9 Column</item>
+        <item>10 Column</item>
+    </string-array>
+    <string-array  name="numberColumnsValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array  name="BoardSortNames">
+        <item>තෝරාගත නොහැක</item>
+        <item>අහඹු ලෙස</item>
+        <item>අකාරාදී පිළිවෙල</item>
+        <item>භාවිතා කරන්න සංඛ්යාතය</item>
+        <item>පසුබිම් වර්ණය</item>
+    </string-array>
+    <string-array name="AppLinkNames">
+        <item>දුරකථනය අමතන්න</item>
+        <item>view contacts</item>
+        <item>contacts childboard</item>
+        <item>contact card</item>
+        <item>ඊමේල් එකක් යවන්න</item>
+        <item>මඟකට යොමු කිරීම</item>
+        <item>ඕනෑම වෙබ් අඩවියකට යන්න</item>
+        <item>kindle reader</item>
+        <item>facebook</item>
+        <item>facebook friends</item>
+        <item>facebook requests</item>
+        <item>youtube</item>
+        <item>pandora - artist</item>
+        <item>pandora - song</item>
+        <item>google earth</item>
+        <item>imdb - movie showtimes</item>
+        <item>imdb - movie box office</item>
+        <item>imdb - movies to be released</item>
+        <item>imdb - actors born today</item>
+        <item>imdb - tv show recaps</item>
+        <item>skype - voice</item>
+        <item>skype - video</item>
+        <item>mytalktools - ගෙදරට යන්න</item>
+        <item>mytalktools - 1 පුවරුව ආපසු යන්න</item>
+        <item>mytalktools - වාක්ය තීරුව පෙන්වන්න</item>
+        <item>mytalktools - තීරු බාර් එක</item>
+        <item>mytalktools - වාක්ය ඛණ්ඩ සැඟවීම</item>
+        <item>mytalktools - බස වාදනය කරන්න</item>
+        <item>mytalktools - යතුරුපුවරුව විදහා</item>
+        <item>mytalktools - වචනයක් කියන්න</item>
+        <item>mytalktools - 2 වන සෛලය සවිකර තිබේ</item>
+        <item>mytalktools - පිටවීම mytalk</item>
+        <item>mytalktools - මුද්රණය කරන්න</item>
+        <item>mytalktools - වඩාත්ම භාවිතා කරන ලද සෛල බලන්න</item>
+        <item>mytalktools - මෑතකදී භාවිතා කරන ලද සෛල බලන්න</item>
+    </string-array>
+    <string-array name="AppLinkCommands">
+        <item tools:ignore="TypographyDashes">tel:000-000-0000</item>
+        <item>contacts:/</item>
+        <item>contactsboard:/</item>
+        <item>contact:/sample+name</item>
+        <item>mailto:foo@example.com?subject=Greetings&amp;body=Wish+you+were+here!</item>
+        <item>http://maps.google.com/maps?daddr=San+Francisco,+CA&amp;saddr=Current+Location</item>
+        <item>http://www.google.com</item>
+        <item>kindle:/home</item>
+        <item>fb://</item>
+        <item>fb://friends</item>
+        <item>fb://requests</item>
+        <item>http://www.youtube.com/watch?v=RRB-m5RGLfY</item>
+        <item>pandora:/createStation?artist=Celine+Dion</item>
+        <item>pandora:/createStation?song=Stereo+Hearts</item>
+        <item>comgoogleearth://</item>
+        <item>imdb:///showtimes</item>
+        <item>imdb:///boxoffice</item>
+        <item>imdb:///feature/comingsoon</item>
+        <item>imdb:///feature/borntoday</item>
+        <item>imdb:///feature/tvrecaps</item>
+        <item>skype:+15556667777?call</item>
+        <item>skype:skypename?call&amp;video=true</item>
+        <item>mytalktools:/home</item>
+        <item>mytalktools:/back</item>
+        <item>mytalktools:/phraseBarOn</item>
+        <item>mytalktools:/phraseBarToggle</item>
+        <item>mytalktools:/phraseBarOff</item>
+        <item>mytalktools:/play</item>
+        <item>mytalktools:/type</item>
+        <item>mytalktools:/voice/hello%20friend</item>
+        <item>mytalktools:/1</item>
+        <item>mytalktools:/exit</item>
+        <item>mytalktools:/print</item>
+        <item>mytalktools:/most</item>
+        <item>mytalktools:/recents</item>
+    </string-array>
+    <string-array name="CopyBoard">
+        <item>පුවරුවේ පිටපතක් සාදන්න</item>
+        <item>පුවරුව වෙත ලින්ක්</item>
+    </string-array>
+    <string-array name="dummy">
+        <item>dummy</item>
+    </string-array>
+
+</resources>

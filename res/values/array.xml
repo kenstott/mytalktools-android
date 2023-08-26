@@ -1,0 +1,188 @@
+<resources>
+<string-array name="maximumRows">
+    <item>1 row</item>
+    <item>2 rows</item>
+    <item>3 rows</item>
+    <item>4 rows</item>
+    <item>5 rows</item>
+</string-array>
+<string-array name="maximumRowValues">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+</string-array>
+<string-array name="gridColors">
+    <item>white foreground, black background</item>
+    <item>black foreground, white background</item>
+</string-array>
+<string-array name="gridColorValues">
+    <item>white,black</item>
+    <item>black,white</item>
+</string-array>
+<string-array name="backgroundColors">
+    <item>Goosen\'s Coding</item>
+    <item>Fitzgerald\'s Coding</item>
+</string-array>
+<string-array name="backgroundCodes">
+    <item>Goosen</item>
+    <item>Fitzgerald</item>
+ </string-array>
+<string-array name="goosensCodes">
+    <item>Default</item><item>Black</item>
+    <item>Dark Gray</item>
+    <item>Light Gray</item>
+    <item>White</item>
+    <item >Gray</item>
+    <item >Verbs</item>
+    <item >Prepositions and locator word</item>
+    <item >Adjectives and adverbs</item>
+    <item >Cyan</item>
+    <item >Nouns, including proper nouns</item>
+    <item >Magenta</item>
+    <item >wh-questions, exclamations, pronouns, negative words, social comments, miscellaneous</item>
+    <item >Purple</item><item >Brown</item>
+    <item >Clear</item>
+</string-array>
+<string-array name="fitzgeraldsCodes">
+    <item>Default</item>
+    <item>Black</item>
+    <item>Dark Gray</item>
+    <item>Light Gray</item>
+    <item>Miscellaneous</item>
+    <item>Gray</item>
+    <item>Red</item>
+    <item>Verbs</item>
+    <item>Adjectives and adverbs</item>
+    <item>Cyan</item>
+    <item>Yellow</item>
+    <item>Social</item>
+    <item>Nouns</item>
+    <item >Purple</item>
+    <item >Brown</item>
+    <item >Clear</item>
+</string-array>
+<string-array name="fontColor">
+    <item>Default</item>
+    <item>Black</item>
+    <item>Dark Gray</item>
+    <item>Light Gray</item>
+    <item>White</item>
+    <item>Gray</item>
+    <item>Red</item>
+    <item>Green</item>
+    <item>Blue</item>
+    <item>Cyan</item>
+    <item>Yellow</item>
+    <item>Magenta</item>
+    <item>Orange</item>
+    <item>Purple</item>
+    <item>Brown</item>
+    <item>Clear</item>
+</string-array>
+<string-array name="unzoomInterval">
+    <item>Off</item>
+    <item>1 second</item>
+    <item>2 seconds</item>
+    <item>3 seconds</item>
+    <item>4 seconds</item>
+    <item>5 seconds</item>
+</string-array>
+<string-array name="unzoomIntervalValues">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+</string-array>
+<string-array name="defaultFontSize" >
+    <item>Default</item><item>10 pixels</item>
+    <item>15 pixels</item>
+    <item>20 pixels</item>
+    <item>25 pixels</item>
+    <item>30 pixels</item>
+    <item>35 pixels</item>
+    <item>40 pixels</item>
+    <item>45 pixels</item>
+    <item>50 pixels</item>
+    <item>55 pixels</item>
+    <item>60 pixels</item>
+    
+</string-array>
+<string-array name="defaultFontSizeValues">
+    <item>0</item>
+    <item>10</item>
+    <item>15</item>
+    <item>20</item>
+    <item>25</item>
+    <item>30</item>
+    <item>35</item>
+    <item>40</item>
+    <item>45</item>
+    <item>50</item>
+    <item>55</item>
+    <item>60</item>
+</string-array>
+<string-array name="marginWidth">
+    <item >0</item>
+    <item >5 pixels</item>
+    <item >10 pixels</item>
+    <item >15 pixels</item>
+    <item >20 pixels</item>
+    <item >25 pixels</item>
+    <item >30 pixels</item>
+    <item >35 pixels</item>
+    <item >40 pixels</item>
+    <item >45 pixels</item>
+    <item >50 pixels</item>
+    <item >55 pixels</item>
+    <item >60 pixels</item>
+</string-array>
+<string-array name="marginWidthValues">
+    <item >0</item>
+    <item >5</item>
+    <item >10</item>
+    <item >15</item>
+    <item >20</item>
+    <item >25</item>
+    <item >30</item>
+    <item >35</item>
+    <item >40</item>
+    <item >45</item>
+    <item >50</item>
+    <item >55</item>
+    <item >60</item>
+</string-array>
+<string-array name="numberColumns">
+		<item>1 Column</item>
+		<item>2 Column</item>
+		<item>3 Column</item>
+		<item>4 Column</item>
+		<item>5 Column</item>
+		<item>6 Column</item>
+		<item>7 Column</item>
+		<item>8 Column</item>
+		<item>9 Column</item>
+		<item>10 Column</item>
+</string-array>
+<string-array name="numberColumnsValues">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+</string-array>
+	<string-array name="BoardSortNames">
+		<item>Not Sorted</item>
+		<item>Random</item>
+		<item>Alphabetic</item>
+		<item>Use Frequency</item>
+		<item>Background Color</item></string-array>
+</resources>

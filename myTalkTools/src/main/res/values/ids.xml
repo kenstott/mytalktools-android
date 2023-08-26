@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="mainGrid" type="id" />
+    <item name="sentenceBarText" type="id"/>
+    <item name="sentenceBarPlay" type="id"/>
+    <item name="sentenceBarDelete" type="id"/>
+    <item name="sentenceBarLayout" type="id"/>
+    <item name="login" type="id"/>
+    <item name="nameMessage" type="id"/>
+    <item name="nameEditText" type="id"/>
+    <item name="passwordEditText" type="id"/>
+    <item name="buttonLayout" type="id"/>
+    <item name="okButton" type="id"/>
+    <item name="cancelButton" type="id"/>
+    <item name="ScrollView01" type="id"/>
+    <item name="LinearLayout02" type="id"/>
+    <item name="TableRow01" type="id"/>
+    <item name="TextView01" type="id"/>
+    <item name="TableRow02" type="id"/>
+    <item name="TextView02" type="id"/>
+    <item name="username" type="id"/>
+    <item name="TableRow03" type="id"/>
+    <item name="TextView03" type="id"/>
+    <item name="password" type="id"/>
+    <item name="TableRow04" type="id"/>
+    <item name="TextView04" type="id"/>
+    <item name="passwordRepeat" type="id"/>
+    <item name="TableRow05" type="id"/>
+    <item name="TextView05" type="id"/>
+    <item name="TableRow06" type="id"/>
+    <item name="TextView06" type="id"/>
+    <item name="name" type="id"/>
+    <item name="TableRow07" type="id"/>
+    <item name="TextView08" type="id"/>
+    <item name="email" type="id"/>
+    <item name="TableRow08" type="id"/>
+    <item name="emailRepeat" type="id"/>
+    <item name="LinearLayout01" type="id"/>
+    <item name="ButtonOk" type="id"/>
+    <item name="ButtonCancel" type="id"/>
+    <item name="EditTextPhrase" type="id"/>
+    <item name="VideoView" type="id"/>
+</resources>

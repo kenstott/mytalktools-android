@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5.0px"
+    android:paddingLeft="5.0px"
+    android:paddingRight="5.0px"
+    android:theme="@android:style/Theme.Holo.Light">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@id/nameMessage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_username"></TextView>
+
+        <EditText
+            android:id="@id/nameEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_username_hint"
+            android:lines="1"
+            android:maxLines="1"
+            android:minLines="1"
+            android:text=""
+            android:textSize="15.0sp"
+            android:inputType="textPersonName"></EditText>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0px"
+            android:text="@string/enter_password"></TextView>
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_password_hint"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:minLines="1"
+            android:text=""
+            android:textSize="15.0sp"></EditText>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0px"
+            android:text="@string/enter_default_board"></TextView>
+
+        <EditText
+            android:id="@+id/defaultBoardEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_default_board_hint"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:minLines="1"
+            android:text=""
+            android:textSize="15.0sp"></EditText>
+
+        <CheckBox
+            android:id="@+id/rememberMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remember_me"></CheckBox>
+
+        <LinearLayout
+            android:id="@id/buttonLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5.0px"
+            android:divider="@drawable/one"
+            android:dividerPadding="12dip"
+            android:orientation="horizontal"
+            android:padding="0.0px"
+            android:showDividers="middle">
+
+            <Button
+                android:id="@id/cancelButton"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="50.0"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/cancel"></Button>
+
+            <Button
+                android:id="@id/okButton"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="50.0"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ok"></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:divider="@drawable/one"
+            android:dividerPadding="12dip"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+
+            <Button
+                android:id="@+id/createNewAccount"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="33"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/create_new_account"></Button>
+
+            <Button
+                android:id="@+id/forgotPassword"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="33"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/forgot_password"></Button>
+
+            <Button
+                android:id="@+id/about"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="33"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/about"></Button>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

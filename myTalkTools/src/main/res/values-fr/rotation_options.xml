@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="rotationOptions">
+        <item>180 Deg </item>
+        <item>90 Deg antihoraire</item>
+        <item>90 Deg horaire</item>
+    </string-array>
+    <integer-array name="rotationOptionValues">
+        <item>180</item>
+        <item>270</item>
+        <item>90</item>
+    </integer-array>
+</resources>
+

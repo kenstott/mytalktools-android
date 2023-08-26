@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:id="@id/ScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" android:isScrollContainer="true" >
+        <TableLayout android:paddingLeft="5.0px" android:paddingRight="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:layout_marginRight="5.0px" android:stretchColumns="1" android:isScrollContainer="true">
+            <LinearLayout android:layout_gravity="fill_horizontal" android:id="@id/TableRow01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:id="@id/TextView01" android:paddingBottom="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/authoring_account_login" />
+            </LinearLayout>
+            <TableRow android:id="@id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/TextView02" android:paddingRight="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/myTalk_user" />
+
+                <EditText
+                    android:id="@id/username"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name_of_user_hint"
+                    android:imeOptions="actionNext"
+                    android:textSize="15.0sp" android:maxLines="1" android:inputType="textNoSuggestions"/>
+
+            </TableRow>
+            <TableRow android:layout_gravity="fill_horizontal" android:id="@id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/TextView03" android:paddingRight="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/password" />
+                <EditText android:textSize="15.0sp" android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" android:inputType="textPassword" android:hint="@string/password_hint" android:imeOptions="actionNone|actionNext"/>
+            </TableRow>
+            <TableRow android:layout_gravity="fill_horizontal" android:id="@id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/TextView04" android:paddingRight="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/password" />
+                <EditText android:textSize="15.0sp" android:id="@id/passwordRepeat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textPassword" android:hint="@string/password_repeat_hint" android:imeOptions="actionNone|actionNext"/>
+            </TableRow>
+            <LinearLayout android:layout_gravity="fill_horizontal" android:id="@id/TableRow05" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:id="@id/TextView05" android:paddingTop="10.0px" android:paddingBottom="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_information" />
+            </LinearLayout>
+            <TableRow android:layout_gravity="fill_horizontal" android:id="@id/TableRow06" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@id/TextView06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10.0px"
+                    android:text="@string/name" />
+
+
+                <EditText
+                    android:id="@id/name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name_hint"
+                    android:inputType="textPersonName"
+                    android:textSize="15.0sp" android:imeOptions="actionNone|actionNext"/>
+
+            </TableRow>
+            <TableRow android:layout_gravity="fill_horizontal" android:id="@id/TableRow07" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/TextView08" android:paddingRight="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email" />
+
+                <EditText
+                    android:id="@id/email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/email_hint"
+                    android:inputType="textEmailAddress"
+                    android:textSize="15.0sp" android:imeOptions="actionNone|actionNext"/>
+
+            </TableRow>
+            <TableRow android:layout_gravity="fill_horizontal" android:id="@id/TableRow08" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/TextView08" android:paddingRight="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email" />
+
+                <EditText
+                    android:id="@id/emailRepeat"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:hint="@string/email_repeat_hint"
+                    android:inputType="textEmailAddress"
+                    android:textSize="15.0sp" android:imeOptions="actionNext"/>
+
+            </TableRow>
+            <LinearLayout android:gravity="bottom|center" android:id="@id/LinearLayout01" android:paddingTop="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                		  android:divider="@drawable/one" android:showDividers="middle">
+                <Button style="?android:attr/borderlessButtonStyle" 
+                    android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="50.0" android:text="@string/cancel" android:id="@+id/ButtonCancel"
+                    android:background="?android:attr/selectableItemBackground"/>
+                <Button style="?android:attr/borderlessButtonStyle"
+                     android:id="@id/ButtonOk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="50.0" android:text="@string/ok"
+                     android:background="?android:attr/selectableItemBackground"/>
+                </LinearLayout>
+        </TableLayout>
+</ScrollView>

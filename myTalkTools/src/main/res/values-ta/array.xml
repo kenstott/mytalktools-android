@@ -1,0 +1,360 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="autoScanInterval">
+        <item>எதுவும் இல்லாத</item>
+        <item>1 வினாடி</item>
+        <item>2 விநாடிகள்</item>
+        <item>3 விநாடிகள்</item>
+        <item>4 விநாடிகள்</item>
+        <item>5 விநாடிகள்</item>
+    </string-array>
+    <string-array name="autoScanIntervalValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="scanSwitches">
+        <item>எதுவும் இல்லாத</item>
+        <item>1 திரையில் பட்டன்</item>
+        <item>2 திரையில் பட்டன்</item>
+        <item>AbleNet Hardware Switch</item>
+        <item>RJ Cooper Hardware Switch</item>
+    </string-array>
+    <string-array name="scanSwitchValues">
+        <item>எதுவும் இல்லாத</item>
+        <item>1-பட்டன்</item>
+        <item>2-பட்டன்</item>
+        <item>ablenet</item>
+        <item>rjcooper</item>
+    </string-array>
+    <string-array name="maximumRows">
+        <item>1 கிடைவரிசை</item>
+        <item>2 கிடைவரிசை</item>
+        <item>3 கிடைவரிசை</item>
+        <item>4 கிடைவரிசை</item>
+        <item>5 கிடைவரிசை</item>
+        <item>6 கிடைவரிசை</item>
+        <item>7 கிடைவரிசை</item>
+        <item>8 கிடைவரிசை</item>
+        <item>9 கிடைவரிசை</item>
+        <item>10 கிடைவரிசை</item>
+    </string-array>
+    <string-array  name="maximumRowValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="autoScanLoops">
+        <item>பூஜ்யம்</item>
+        <item>ஒருமுறை</item>
+        <item>இருமுறை</item>
+        <item>மூன்று முறை</item>
+        <item>நான்கு முறை</item>
+        <item>ஐந்து முறை</item>
+    </string-array>
+    <string-array  name="autoScanLoopValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array  name="gridColors">
+        <item>வெள்ளை முனை, கருப்பு பின்னணி</item>
+        <item>கருப்பு பின்னணி, வெள்ளை பின்னணி</item>
+    </string-array>
+    <string-array  name="gridColorValues">
+        <item>வெள்ளை,கருப்பு</item>
+        <item>கருப்பு,வெள்ளை</item>
+    </string-array>
+    <string-array  name="backgroundColors">
+        <item>Goosen\'s Coding</item>
+        <item>Fitzgerald\'s Coding</item>
+    </string-array>
+    <string-array  name="backgroundCodes">
+        <item>Goosen</item>
+        <item>Fitzgerald</item>
+    </string-array>
+    <string-array  name="goosensCodes">
+        <item>இயல்புநிலை</item>
+        <item>கருப்பு</item>
+        <item>அடர் சாம்பல் நிறம்</item>
+        <item>மெல்லிய சாம்பல் நிறம்</item>
+        <item>வெள்ளை</item>
+        <item>சாம்பல்</item>
+        <item>வினைச்சொல்</item>
+        <item>முன்னுருபுகள் மற்றும் இருப்பிடங்காட்டி</item>
+        <item>உரிச்சொற்கள் மற்றும் வினையுரிச்சொற்கள்</item>
+        <item>சியான்</item>
+        <item>பெயர்ச்சொற்கள், சரியான பெயர்ச்சொற்கள் உட்பட</item>
+        <item>Magenta</item>
+        <item>wh-questions, exclamations, பிரதிபெயர்களை, எதிர்மறை சொற்கள், சமூக கருத்துக்கள், இதர</item>
+        <item>ஊதா</item>
+        <item>பிரவுன்</item>
+        <item>நீக்கு</item>
+        <item>சிவப்பு</item>
+    </string-array>
+    <string-array  name="fitzgeraldsCodes">
+        <item>இயல்புநிலை</item>
+        <item>கருப்பு</item>
+        <item>அடர் சாம்பல் நிறம்</item>
+        <item>மெல்லிய சாம்பல் நிறம்</item>
+        <item> இதர</item>
+        <item>சாம்பல்</item>
+        <item>சிவப்பு</item>
+        <item>வினைச்சொல்</item>
+        <item>உரிச்சொற்கள் மற்றும் வினையுரிச்சொற்கள்</item>
+        <item>சியான்</item>
+        <item>மஞ்சள்</item>
+        <item>சமூக</item>
+        <item>பெயர்ச்சொற்கள்</item>
+        <item>ஊதா</item>
+        <item>பிரவுன்</item>
+        <item>நீக்கு</item>
+        <item>சிவப்பு</item>
+    </string-array>
+    <string-array  name="fontColor">
+        <item>இயல்புநிலை</item>
+        <item>கருப்பு</item>
+        <item>அடர் சாம்பல் நிறம்</item>
+        <item>மெல்லிய சாம்பல் நிறம்</item>
+        <item>வெள்ளை</item>
+        <item>சாம்பல்</item>
+        <item>சிவப்பு</item>
+        <item>பச்சை</item>
+        <item>நீலம்</item>
+        <item>சியான்</item>
+        <item>மஞ்சள்</item>
+        <item>Magenta</item>
+        <item>செம்மஞ்சள்</item>
+        <item>ஊதா</item>
+        <item>பிரவுன்</item>
+        <item>நீக்கு</item>
+        <item>சிவப்பு</item>
+    </string-array>
+    <string-array  name="unzoomInterval">
+        <item>Off</item>
+        <item>1 வினாடி</item>
+        <item>2 விநாடிகள்</item>
+        <item>3 விநாடிகள்</item>
+        <item>4 விநாடிகள்</item>
+        <item>5 விநாடிகள்</item>
+    </string-array>
+    <string-array  name="unzoomIntervalValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array  name="defaultFontSize">
+        <item>இயல்புநிலை</item>
+        <item>10 pixels</item>
+        <item>11 pixels</item>
+        <item>12 pixels</item>
+        <item>13 pixels</item>
+        <item>14 pixels</item>
+        <item>15 pixels</item>
+        <item>20 pixels</item>
+        <item>25 pixels</item>
+        <item>30 pixels</item>
+        <item>35 pixels</item>
+        <item>40 pixels</item>
+        <item>45 pixels</item>
+        <item>50 pixels</item>
+        <item>55 pixels</item>
+        <item>60 pixels</item>
+    </string-array>
+    <string-array  name="defaultFontSizeValues">
+        <item>0</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="messageTypes">
+        <item>பயனர் தேர்வுகள்</item>
+        <item>உரை</item>
+        <item>உருவம்</item>
+        <item>படமும் உரைகளும்</item>
+    </string-array>
+    <string-array name="messageTypeValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="actionTypes">
+        <item>பயனர் தேர்வுகள்</item>
+        <item>Facebook Messenger</item>
+    </string-array>
+    <string-array name="actionTypeValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array  name="marginWidthList">
+        <item>0</item>
+        <item>5 pixels</item>
+        <item>10 pixels</item>
+        <item>15 pixels</item>
+        <item>20 pixels</item>
+        <item>25 pixels</item>
+        <item>30 pixels</item>
+        <item>35 pixels</item>
+        <item>40 pixels</item>
+        <item>45 pixels</item>
+        <item>50 pixels</item>
+        <item>55 pixels</item>
+        <item>60 pixels</item>
+    </string-array>
+    <string-array  name="marginWidthValues">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+    </string-array>
+    <string-array  name="numberColumns">
+        <item>1 நெடுவரிசை</item>
+        <item>2 நெடுவரிசை</item>
+        <item>3 நெடுவரிசை</item>
+        <item>4 நெடுவரிசை</item>
+        <item>5 நெடுவரிசை</item>
+        <item>6 நெடுவரிசை</item>
+        <item>7 நெடுவரிசை</item>
+        <item>8 நெடுவரிசை</item>
+        <item>9 நெடுவரிசை</item>
+        <item>10 நெடுவரிசை</item>
+    </string-array>
+    <string-array  name="numberColumnsValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array  name="BoardSortNames">
+        <item>வரிசைப்படுத்தப்படவில்லை</item>
+        <item>தொடர்பின்றி எடுக்கப்பட்ட</item>
+        <item>அகர</item>
+        <item>அதிர்வெண் பயன்படுத்தவும்</item>
+        <item>பின்னணி நிறம்</item>
+    </string-array>
+    <string-array name="AppLinkNames">
+        <item>தொலைபேசி அழைப்பு</item>
+        <item>view contacts</item>
+        <item>contacts childboard</item>
+        <item>contact card</item>
+        <item>மின்னஞ்சலை அனுப்பவும்</item>
+        <item>ஒரு இடத்திற்கு திசைகளில்</item>
+        <item>எந்த வலைத்தளத்திற்கும் செல்க</item>
+        <item>kindle reader</item>
+        <item>facebook</item>
+        <item>facebook friends</item>
+        <item>facebook requests</item>
+        <item>youtube</item>
+        <item>pandora - artist</item>
+        <item>pandora - song</item>
+        <item>google earth</item>
+        <item>imdb - movie showtimes</item>
+        <item>imdb - movie box office</item>
+        <item>imdb - movies to be released</item>
+        <item>imdb - actors born today</item>
+        <item>imdb - tv show recaps</item>
+        <item>skype - voice</item>
+        <item>skype - video</item>
+        <item>mytalktools - முக்கிய குழுவிற்கு செல்க</item>
+        <item>mytalktools - திரும்பிப் போக</item>
+        <item>mytalktools - சொற்றொடர் பார்வை காட்டு</item>
+        <item>mytalktools - மாற்று பட்டியை மாற்று</item>
+        <item>mytalktools - சொற்றொடர் பார்வை மறைக்க</item>
+        <item>mytalktools - சொற்றொடர் பட்டி</item>
+        <item>mytalktools - காட்சி விசைப்பலகை</item>
+        <item>mytalktools - குரல் ஒரு வார்த்தை</item>
+        <item>mytalktools - குழுவில் 2 வது செல் செயல்படுத்த</item>
+        <item>mytalktools - வெளியேறு mytalk</item>
+        <item>mytalktools - அச்சு</item>
+        <item>mytalktools - மிகவும் பயன்படுத்தப்படும் கலங்களைக் காண்க</item>
+        <item>mytalktools - சமீபத்தில் பயன்படுத்தப்படும் கலங்களைக் காண்க</item>
+    </string-array>
+    <string-array name="AppLinkCommands">
+        <item tools:ignore="TypographyDashes">tel:000-000-0000</item>
+        <item>contacts:/</item>
+        <item>contactsboard:/</item>
+        <item>contact:/sample+name</item>
+        <item>mailto:foo@example.com?subject=Greetings&amp;body=Wish+you+were+here!</item>
+        <item>http://maps.google.com/maps?daddr=San+Francisco,+CA&amp;saddr=Current+Location</item>
+        <item>http://www.google.com</item>
+        <item>kindle:/home</item>
+        <item>fb://</item>
+        <item>fb://friends</item>
+        <item>fb://requests</item>
+        <item>http://www.youtube.com/watch?v=RRB-m5RGLfY</item>
+        <item>pandora:/createStation?artist=Celine+Dion</item>
+        <item>pandora:/createStation?song=Stereo+Hearts</item>
+        <item>comgoogleearth://</item>
+        <item>imdb:///showtimes</item>
+        <item>imdb:///boxoffice</item>
+        <item>imdb:///feature/comingsoon</item>
+        <item>imdb:///feature/borntoday</item>
+        <item>imdb:///feature/tvrecaps</item>
+        <item>skype:+15556667777?call</item>
+        <item>skype:skypename?call&amp;video=true</item>
+        <item>mytalktools:/home</item>
+        <item>mytalktools:/back</item>
+        <item>mytalktools:/phraseBarOn</item>
+        <item>mytalktools:/phraseBarToggle</item>
+        <item>mytalktools:/phraseBarOff</item>
+        <item>mytalktools:/play</item>
+        <item>mytalktools:/type</item>
+        <item>mytalktools:/voice/hello%20friend</item>
+        <item>mytalktools:/1</item>
+        <item>mytalktools:/exit</item>
+        <item>mytalktools:/print</item>
+        <item>mytalktools:/most</item>
+        <item>mytalktools:/recents</item>
+    </string-array>
+    <string-array name="CopyBoard">
+        <item>குழுவின் நகலை உருவாக்கவும்</item>
+        <item>பலகை இணைப்பு</item>
+    </string-array>
+    <string-array name="dummy">
+        <item>dummy</item>
+    </string-array>
+
+</resources>

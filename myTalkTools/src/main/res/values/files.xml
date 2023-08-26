@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  translatable="false" name="boardDatabase">boards.db</string>
+    <string  translatable="false" name="boardDatabaseshm">boards.db-shm</string>
+    <string  translatable="false" name="boardDatabasewal">boards.db-wal</string>
+</resources>

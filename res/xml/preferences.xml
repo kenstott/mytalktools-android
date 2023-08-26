@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="phraseMode"
+        android:summary="@string/phrase_mode_explain"
+        android:title="@string/phrase_mode" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="zoomPictures"
+        android:summary="@string/zoom_pictures_explain"
+        android:title="@string/zoom_pictures" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/unzoomInterval"
+        android:entryValues="@array/unzoomIntervalValues"
+        android:key="unzoomInterval"
+        android:summary="@string/unzoom_interval_explain"
+        android:title="@string/unzoom_interval" />
+    <ListPreference
+        android:defaultValue="3"
+        android:entries="@array/maximumRows"
+        android:entryValues="@array/maximumRowValues"
+        android:key="maximumRows"
+        android:summary="@string/maximum_rows_explain"
+        android:title="@string/maximum_rows" />
+    <ListPreference
+        android:entries="@array/gridColors"
+        android:entryValues="@array/gridColorValues"
+        android:key="colorScheme"
+        android:summary="@string/color_scheme_explain"
+        android:title="@string/color_scheme" />
+    <ListPreference
+        android:defaultValue="15"
+        android:entries="@array/defaultFontSize"
+        android:entryValues="@array/defaultFontSizeValues"
+        android:key="defaultFontSize"
+        android:summary="@string/default_font_size_explain"
+        android:title="@string/default_font_size" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:enabled="true"
+        android:key="phraseImage"
+        android:summary="@string/phrase_image_explain"
+        android:title="@string/phrase_image" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:enabled="true"
+        android:key="tts"
+        android:summary="@string/basic_text_to_speech_explain"
+        android:title="@string/basic_text_to_speech" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="externalStorage"
+        android:summary="@string/use_external_storage_explain"
+        android:title="@string/use_external_storage" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="downloadMedia"
+        android:summary="@string/save_media_explain"
+        android:title="@string/save_media" />
+
+    <ListPreference
+        android:defaultValue="Goosen"
+        android:entries="@array/backgroundColors"
+        android:entryValues="@array/backgroundCodes"
+        android:key="colorKey"
+        android:summary="@string/color_key_explain"
+        android:title="@string/colorKey" />
+    <ListPreference
+        android:entries="@array/marginWidth"
+        android:entryValues="@array/marginWidthValues"
+        android:key="marginWidth"
+        android:summary="@string/margin_width_explain"
+        android:title="@string/marginWidth" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="userMarginForColorCoding"
+        android:summary="@string/use_margin_for_color_coding_explain"
+        android:title="@string/use_margin_for_color_coding" />
+
+</PreferenceScreen>

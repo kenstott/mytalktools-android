@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/one" >
+
+        <EditText
+            android:id="@+id/editTextUrl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/enter_url"
+            android:text="@string/suggestedUrl" android:maxLines="1" android:inputType="textUri">
+
+            <requestFocus />
+        </EditText>
+
+        <Button style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/buttonGo"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go" />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:divider="@drawable/one"
+        android:showDividers="middle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/buttonBack"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:text="@string/back" />
+
+        <Button style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/buttonCapture"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/capture" />
+
+        <Button style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/buttonForward"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:text="@string/forward" />
+
+    </LinearLayout>
+
+</LinearLayout>

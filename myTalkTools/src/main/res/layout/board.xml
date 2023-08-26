@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- The main content view -->
+    <LinearLayout
+        android:id="@+id/mainLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:id="@+id/twoButtonSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:text="@string/_1"
+                android:textSize="40sp"
+                android:backgroundTint="#FFFF00" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/_2"
+                android:textSize="40sp"
+                android:layout_weight=".5"
+                android:backgroundTint="#00FF00" />
+        </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:id="@+id/oneButtonSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFF00" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@id/sentenceBarLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <Button
+                android:id="@id/sentenceBarPlay"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/blue_play"
+                android:text=""
+                tools:ignore="RtlHardcoded" />
+
+            <LinearLayout
+                android:id="@+id/sentenceBarLinear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/sentenceBarPlay"
+                android:layout_toLeftOf="@id/sentenceBarDelete"
+                android:layout_toRightOf="@id/sentenceBarPlay"
+                android:layout_toStartOf="@id/sentenceBarDelete"
+                android:ellipsize="middle"
+                android:orientation="horizontal"
+                tools:ignore="RtlHardcoded">
+
+                <HorizontalScrollView
+                    android:id="@+id/sentenceBarHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/sentenceBarLinearLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:divider="@drawable/one"
+                        android:dividerPadding="8dip"
+                        android:ellipsize="middle"
+                        android:orientation="horizontal"
+                        android:showDividers="middle" />
+                </HorizontalScrollView>
+
+                <TextView
+                    android:id="@id/sentenceBarText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="middle"
+                    android:lines="2"
+                    android:paddingBottom="0dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+
+            <Button
+                android:id="@id/sentenceBarDelete"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/red_delete"
+                android:text=""
+                tools:ignore="RtlHardcoded" />
+        </RelativeLayout>
+
+        <GridView
+            android:id="@id/mainGrid"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="false"
+            android:gravity="center"
+            android:horizontalSpacing="10.0dip"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10.0dip" />
+    </LinearLayout>
+    <!-- The navigation drawer -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/left_drawer"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#111"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+</androidx.drawerlayout.widget.DrawerLayout>
+

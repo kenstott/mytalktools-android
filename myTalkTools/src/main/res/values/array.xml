@@ -1,0 +1,359 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="autoScanInterval">
+        <item>None</item>
+        <item>1 second</item>
+        <item>2 seconds</item>
+        <item>3 second</item>
+        <item>4 seconds</item>
+        <item>5 second</item>
+    </string-array>
+    <string-array name="autoScanIntervalValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="scanSwitches">
+        <item>None</item>
+        <item>1 Button On-Screen</item>
+        <item>2 Button On-Screen</item>
+        <item>AbleNet Hardware Switch</item>
+        <item>RJ Cooper Hardware Switch</item>
+    </string-array>
+    <string-array name="scanSwitchValues">
+        <item>none</item>
+        <item>1-button</item>
+        <item>2-buttons</item>
+        <item>ablenet</item>
+        <item>rjcooper</item>
+    </string-array>
+    <string-array name="maximumRows">
+        <item>1 row</item>
+        <item>2 rows</item>
+        <item>3 rows</item>
+        <item>4 rows</item>
+        <item>5 rows</item>
+        <item>6 rows</item>
+        <item>7 rows</item>
+        <item>8 rows</item>
+        <item>9 rows</item>
+        <item>10 rows</item>
+    </string-array>
+    <string-array  name="maximumRowValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="autoScanLoops">
+        <item>Zero</item>
+        <item>Once</item>
+        <item>Twice</item>
+        <item>Three Times</item>
+        <item>Four Times</item>
+        <item>Five Times</item>
+    </string-array>
+    <string-array  name="autoScanLoopValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array  name="gridColors">
+        <item>white foreground, black background</item>
+        <item>black foreground, white background</item>
+    </string-array>
+    <string-array  name="gridColorValues">
+        <item>white,black</item>
+        <item>black,white</item>
+    </string-array>
+    <string-array  name="backgroundColors">
+        <item>Goosen\'s Coding</item>
+        <item>Fitzgerald\'s Coding</item>
+    </string-array>
+    <string-array  name="backgroundCodes">
+        <item>Goosen</item>
+        <item>Fitzgerald</item>
+    </string-array>
+    <string-array  name="goosensCodes">
+        <item>Default</item>
+        <item>Black</item>
+        <item>Dark Gray</item>
+        <item>Light Gray</item>
+        <item>White</item>
+        <item>Gray</item>
+        <item>Verbs</item>
+        <item>Prepositions and locator word</item>
+        <item>Adjectives and adverbs</item>
+        <item>Cyan</item>
+        <item>Nouns, including proper nouns</item>
+        <item>Magenta</item>
+        <item>wh-questions, exclamations, pronouns, negative words, social comments, miscellaneous</item>
+        <item>Purple</item>
+        <item>Brown</item>
+        <item>Clear</item>
+        <item>Red</item>
+    </string-array>
+    <string-array  name="fitzgeraldsCodes">
+        <item>Default</item>
+        <item>Black</item>
+        <item>Dark Gray</item>
+        <item>Light Gray</item>
+        <item>Miscellaneous</item>
+        <item>Gray</item>
+        <item>Red</item>
+        <item>Verbs</item>
+        <item>Adjectives and adverbs</item>
+        <item>Cyan</item>
+        <item>Yellow</item>
+        <item>Social</item>
+        <item>Nouns</item>
+        <item>Purple</item>
+        <item>Brown</item>
+        <item>Clear</item>
+        <item>Red</item>
+    </string-array>
+    <string-array  name="fontColor">
+        <item>Default</item>
+        <item>Black</item>
+        <item>Dark Gray</item>
+        <item>Light Gray</item>
+        <item>White</item>
+        <item>Gray</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Yellow</item>
+        <item>Magenta</item>
+        <item>Orange</item>
+        <item>Purple</item>
+        <item>Brown</item>
+        <item>Clear</item>
+        <item>Red</item>
+    </string-array>
+    <string-array  name="unzoomInterval">
+        <item>Off</item>
+        <item>1 second</item>
+        <item>2 seconds</item>
+        <item>3 seconds</item>
+        <item>4 seconds</item>
+        <item>5 seconds</item>
+    </string-array>
+    <string-array  name="unzoomIntervalValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array  name="defaultFontSize">
+        <item>Default</item>
+        <item>10 pixels</item>
+        <item>11 pixels</item>
+        <item>12 pixels</item>
+        <item>13 pixels</item>
+        <item>14 pixels</item>
+        <item>15 pixels</item>
+        <item>20 pixels</item>
+        <item>25 pixels</item>
+        <item>30 pixels</item>
+        <item>35 pixels</item>
+        <item>40 pixels</item>
+        <item>45 pixels</item>
+        <item>50 pixels</item>
+        <item>55 pixels</item>
+        <item>60 pixels</item>
+    </string-array>
+    <string-array  name="defaultFontSizeValues">
+        <item>0</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="messageTypes">
+        <item>User Chooses</item>
+        <item>Text</item>
+        <item>Image</item>
+        <item>Image and Text</item>
+    </string-array>
+    <string-array name="messageTypeValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="actionTypes">
+        <item>User Chooses</item>
+        <item>Facebook Messenger</item>
+    </string-array>
+    <string-array name="actionTypeValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array  name="marginWidthList">
+        <item>0</item>
+        <item>5 pixels</item>
+        <item>10 pixels</item>
+        <item>15 pixels</item>
+        <item>20 pixels</item>
+        <item>25 pixels</item>
+        <item>30 pixels</item>
+        <item>35 pixels</item>
+        <item>40 pixels</item>
+        <item>45 pixels</item>
+        <item>50 pixels</item>
+        <item>55 pixels</item>
+        <item>60 pixels</item>
+    </string-array>
+    <string-array  name="marginWidthValues">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+    </string-array>
+    <string-array  name="numberColumns">
+        <item>1 Column</item>
+        <item>2 Column</item>
+        <item>3 Column</item>
+        <item>4 Column</item>
+        <item>5 Column</item>
+        <item>6 Column</item>
+        <item>7 Column</item>
+        <item>8 Column</item>
+        <item>9 Column</item>
+        <item>10 Column</item>
+    </string-array>
+    <string-array  name="numberColumnsValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array  name="BoardSortNames">
+        <item>Not Sorted</item>
+        <item>Random</item>
+        <item>Alphabetic</item>
+        <item>Use Frequency</item>
+        <item>Background Color</item>
+    </string-array>
+    <string-array name="AppLinkNames">
+        <item>call a phone</item>
+        <item>view contacts</item>
+        <item>contacts childboard</item>
+        <item>contact card</item>
+        <item>send an email</item>
+        <item>directions to a place</item>
+        <item>go to any web site</item>
+        <item>kindle reader</item>
+        <item>facebook</item>
+        <item>facebook friends</item>
+        <item>facebook requests</item>
+        <item>youtube</item>
+        <item>pandora - artist</item>
+        <item>pandora - song</item>
+        <item>google earth</item>
+        <item>imdb - movie showtimes</item>
+        <item>imdb - movie box office</item>
+        <item>imdb - movies to be released</item>
+        <item>imdb - actors born today</item>
+        <item>imdb - tv show recaps</item>
+        <item>skype - voice</item>
+        <item>skype - video</item>
+        <item>mytalktools - go to home board</item>
+        <item>mytalktools - go back 1 board</item>
+        <item>mytalktools - show phrase bar</item>
+        <item>mytalktools - toggle phrase bar</item>
+        <item>mytalktools - hide phrase bar</item>
+        <item>mytalktools - play phrase bar</item>
+        <item>mytalktools - display keyboard</item>
+        <item>mytalktools - voice a word</item>
+        <item>mytalktools - activate 2nd cell on board</item>
+        <item>mytalktools - exit mytalk</item>
+        <item>mytalktools - print</item>
+        <item>mytalktools - view most used cells</item>
+        <item>mytalktools - view recently used cells</item>
+    </string-array>
+    <string-array name="AppLinkCommands">
+        <item tools:ignore="TypographyDashes">tel:000-000-0000</item>
+        <item>contacts:/</item>
+        <item>contactsboard:/</item>
+        <item>contact:/sample+name</item>
+        <item>mailto:foo@example.com?subject=Greetings&amp;body=Wish+you+were+here!</item>
+        <item>http://maps.google.com/maps?daddr=San+Francisco,+CA&amp;saddr=Current+Location</item>
+        <item>http://www.google.com</item>
+        <item>kindle:/home</item>
+        <item>fb://</item>
+        <item>fb://friends</item>
+        <item>fb://requests</item>
+        <item>http://www.youtube.com/watch?v=RRB-m5RGLfY</item>
+        <item>pandora:/createStation?artist=Celine+Dion</item>
+        <item>pandora:/createStation?song=Stereo+Hearts</item>
+        <item>comgoogleearth://</item>
+        <item>imdb:///showtimes</item>
+        <item>imdb:///boxoffice</item>
+        <item>imdb:///feature/comingsoon</item>
+        <item>imdb:///feature/borntoday</item>
+        <item>imdb:///feature/tvrecaps</item>
+        <item>skype:+15556667777?call</item>
+        <item>skype:skypename?call&amp;video=true</item>
+        <item>mytalktools:/home</item>
+        <item>mytalktools:/back</item>
+        <item>mytalktools:/phraseBarOn</item>
+        <item>mytalktools:/phraseBarToggle</item>
+        <item>mytalktools:/phraseBarOff</item>
+        <item>mytalktools:/play</item>
+        <item>mytalktools:/type</item>
+        <item>mytalktools:/voice/hello%20friend</item>
+        <item>mytalktools:/1</item>
+        <item>mytalktools:/exit</item>
+        <item>mytalktools:/print</item>
+        <item>mytalktools:/most</item>
+        <item>mytalktools:/recents</item>
+    </string-array>
+    <string-array name="CopyBoard">
+        <item>Make a copy of the board</item>
+        <item>Link to the board</item>
+    </string-array>
+    <string-array name="dummy">
+        <item>dummy</item>
+    </string-array>
+</resources>

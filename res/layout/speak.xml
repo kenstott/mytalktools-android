@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/speakLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5.0px"
+    android:paddingLeft="5.0px"
+    android:paddingRight="5.0px"
+    android:theme="@android:style/Theme.Holo.Light" >
+
+    <LinearLayout
+        android:id="@+id/speakLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/speakField"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_phrase" > 
+        </TextView>
+
+        <EditText
+            android:id="@+id/speakFieldEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/speak_hint"
+            android:lines="10"
+            android:maxLines="10"
+            android:minLines="1"
+            android:text=""
+            android:textSize="15.0sp">
+        </EditText>
+        
+        <Button style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/speakButton"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="50.0"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/speakButton" >        
+		</Button>
+     </LinearLayout>
+   </ScrollView>

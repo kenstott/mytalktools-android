@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/audio_recorder_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/one"
+    android:orientation="vertical" >
+
+    <TextView android:id="@+id/statusText" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_vertical|center_horizontal" android:layout_margin="10dp" ></TextView>
+    <TextView android:gravity="center_vertical|center_horizontal" android:id="@+id/recordText" android:layout_width="fill_parent" android:layout_height="wrap_content" ></TextView>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_marginTop="25dp">
+
+        <ImageButton
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:contentDescription="@string/start"
+            android:src="@drawable/ic_btn_speak_now" >
+</ImageButton>
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:contentDescription="@string/play"
+            android:src="@drawable/ic_media_play" >
+
+</ImageButton>
+
+        <ImageButton
+            android:id="@+id/stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:contentDescription="@string/stop"
+            android:src="@drawable/ic_media_stop" >
+</ImageButton>
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:contentDescription="@string/pause"
+            android:src="@drawable/ic_media_pause" >
+</ImageButton>
+    </LinearLayout>
+</LinearLayout>

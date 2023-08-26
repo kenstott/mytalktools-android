@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:isScrollContainer="true">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0px"
+        android:layout_marginRight="5.0px"
+        android:isScrollContainer="true"
+        android:paddingLeft="5.0px"
+        android:paddingRight="5.0px"
+        android:stretchColumns="1">
+
+        <LinearLayout
+            android:id="@id/TableRow01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal">
+
+            <TextView
+                android:id="@id/TextView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10.0px"
+                android:text="@string/authoring_account_login"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TableRow
+            android:id="@id/TableRow02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10.0px"
+                android:paddingLeft="10.0px"
+                android:paddingRight="10.0px"
+                android:text="@string/myTalk_user" />
+
+            <EditText
+                android:id="@id/username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name_of_user_hint"
+                android:imeOptions="actionNext"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:textSize="15.0sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@id/TableRow03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal">
+
+            <TextView
+                android:id="@id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10.0px"
+                android:paddingLeft="10.0px"
+                android:paddingRight="10.0px"
+                android:text="@string/password" />
+
+            <EditText
+                android:id="@id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password_hint"
+                android:imeOptions="actionNone|actionNext"
+                android:inputType="textPassword"
+                android:lines="1"
+                android:maxLines="1"
+                android:textSize="15.0sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@id/TableRow04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal">
+
+            <TextView
+                android:id="@id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10.0px"
+                android:paddingLeft="10.0px"
+                android:paddingRight="10.0px"
+                android:text="@string/password" />
+
+            <EditText
+                android:id="@id/passwordRepeat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password_repeat_hint"
+                android:imeOptions="actionNone|actionNext"
+                android:inputType="textPassword"
+                android:textSize="15.0sp" />
+        </TableRow>
+
+        <LinearLayout
+            android:id="@id/TableRow05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal">
+
+            <TextView
+                android:id="@id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10.0px"
+                android:paddingTop="10.0px"
+                android:text="@string/contact_information"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TableRow
+            android:id="@id/TableRow06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal">
+
+            <TextView
+                android:id="@id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10.0px"
+                android:paddingLeft="10.0px"
+                android:paddingRight="10.0px"
+                android:text="@string/name" />
+
+
+            <EditText
+                android:id="@id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name_hint"
+                android:imeOptions="actionNone|actionNext"
+                android:inputType="textPersonName"
+                android:textSize="15.0sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@id/TableRow07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal">
+
+            <TextView
+                android:id="@id/TextView08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10.0px"
+                android:paddingLeft="10.0px"
+                android:paddingRight="10.0px"
+                android:text="@string/email" />
+
+            <EditText
+                android:id="@id/email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_hint"
+                android:imeOptions="actionNone|actionNext"
+                android:inputType="textEmailAddress"
+                android:textSize="15.0sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@id/TableRow08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10.0px"
+                android:paddingEnd="10.0px"
+                android:paddingRight="10.0px"
+                android:text="@string/email" />
+
+            <EditText
+                android:id="@id/emailRepeat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:hint="@string/email_repeat_hint"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:textSize="15.0sp" />
+
+        </TableRow>
+
+        <LinearLayout
+            android:id="@id/LinearLayout01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/one"
+            android:gravity="bottom|center"
+            android:paddingTop="5.0px"
+            android:showDividers="middle">
+
+            <Button
+                android:id="@+id/ButtonCancel"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="50.0"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@id/ButtonOk"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="50.0"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ok" />
+        </LinearLayout>
+    </TableLayout>
+</ScrollView>

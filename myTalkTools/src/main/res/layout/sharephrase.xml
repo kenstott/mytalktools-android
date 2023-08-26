@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sharePhrase"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:orientation="horizontal"
+    android:theme="@android:style/Theme.Dialog">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_vertical"
+        android:layout_row="4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:divider="@drawable/one"
+        android:dividerPadding="8dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:showDividers="middle">
+
+        <ImageButton
+            android:id="@+id/facebookButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="@string/accessibleFacebook"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:src="@drawable/facebook" />
+
+        <ImageButton
+            android:id="@+id/googleButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="@string/accessibleGoogle"
+            android:gravity="center"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:src="@drawable/google" />
+
+        <ImageButton
+            android:id="@+id/twitterButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="@string/accessibleTwitter"
+            android:gravity="end"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:src="@drawable/twitter" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:divider="@drawable/one"
+        android:dividerPadding="8dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:showDividers="middle">
+
+        <ImageButton
+            android:id="@+id/emailButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="@string/accessibleEmail"
+            android:gravity="start"
+            android:paddingLeft="40dp"
+            android:paddingStart="40dp"
+            android:paddingRight="25dp"
+            android:paddingEnd="25dp"
+            android:src="@drawable/mail"
+            tools:ignore="RtlHardcoded" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:divider="@drawable/one"
+        android:dividerPadding="8dip"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:showDividers="middle">
+
+        <Button
+            android:id="@+id/exitButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/exit_button" />
+
+    </RelativeLayout>
+</GridLayout>

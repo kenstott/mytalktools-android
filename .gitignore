@@ -17,3 +17,4 @@ project.properties
 .gradle/
 .idea/
 gradle/wrapper/
+/myTalkTools/src/main/aidl/

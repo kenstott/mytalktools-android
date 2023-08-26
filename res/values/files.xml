@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="boardDatabase">boards.db</string>
+    <string name="boardDatabaseshm">boards.db-shm</string>
+    <string name="boardDatabasewal">boards.db-wal</string>
+</resources>
