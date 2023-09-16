@@ -1,6 +1,7 @@
 build/
 *.keystore
 default.properties
+local.properties
 *.der
 gradlew
 gradlew.bat
