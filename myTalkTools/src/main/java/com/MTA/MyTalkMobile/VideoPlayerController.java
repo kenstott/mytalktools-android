@@ -6,6 +6,7 @@ package com.MTA.MyTalkMobile;
 import android.app.Activity;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.widget.VideoView;
 
 import androidx.annotation.Keep;
@@ -91,6 +92,9 @@ public class VideoPlayerController extends Activity {
     @Override
     public final void onCreate(final Bundle paramBundle) {
         super.onCreate(paramBundle);
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder(StrictMode.getVmPolicy())
+                .detectLeakedClosableObjects()
+                .build());
         setContentView(R.layout.video);
         this.videoView = findViewById(R.id.VideoView);
         this.setTitle(getIntent().getStringExtra("title"));

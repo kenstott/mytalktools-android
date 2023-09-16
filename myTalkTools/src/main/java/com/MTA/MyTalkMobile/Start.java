@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.preference.PreferenceManager;
 import android.provider.CalendarContract;
 import android.util.Log;
@@ -117,6 +118,9 @@ public class Start extends Activity {
         showWelcome = sp.getBoolean(AppPreferences.PREF_KEY_SHOW_WELCOME, true);
         showMenu = sp.getBoolean(AppPreferences.PREF_KEY_SHOW_MENU, true);
         super.onCreate(bundle);
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder(StrictMode.getVmPolicy())
+                .detectLeakedClosableObjects()
+                .build());
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.main);
         SVG svg = SVGParser.getSVGFromResource(getResources(), R.raw.splash);

@@ -888,6 +888,11 @@ public class BoardContent {
             if (x == 10) break;
         }
         if (cache) bitmap = tBitmap;
+        if (inputStream != null) {
+            try {
+                inputStream.close();
+            } catch(IOException ignore) {}
+        }
         return tBitmap;
     }
 

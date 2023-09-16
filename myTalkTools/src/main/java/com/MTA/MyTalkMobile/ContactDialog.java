@@ -16,6 +16,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -230,6 +231,9 @@ class ContactDialog extends Dialog {
     @Override
     protected final void onCreate(final Bundle paramBundle) {
         super.onCreate(paramBundle);
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder(StrictMode.getVmPolicy())
+                .detectLeakedClosableObjects()
+                .build());
         try {
             requestWindowFeature(Window.FEATURE_NO_TITLE);
             setContentView(R.layout.contactdialog);

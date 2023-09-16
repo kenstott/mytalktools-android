@@ -6,6 +6,7 @@ package com.MTA.MyTalkMobile;
 import android.app.Activity;
 import android.app.Application;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.view.ViewConfiguration;
 
 import androidx.annotation.Keep;
@@ -48,6 +49,11 @@ public class MyTalkApp extends Application implements ContextProvider {
             ex.printStackTrace();
         }
         super.onCreate();
+
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder(StrictMode.getVmPolicy())
+                .detectLeakedClosableObjects()
+                .build());
+
         // Initialize TestFlight with your app token.
         //TestFlight.takeOff(this, TEST_FLIGHT_ID);
         // ...

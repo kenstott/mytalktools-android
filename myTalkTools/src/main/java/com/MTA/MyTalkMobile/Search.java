@@ -13,6 +13,7 @@ import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.StrictMode;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -471,6 +472,9 @@ public class Search extends Activity implements EasyPermissions.PermissionCallba
             queryType = SearchRequestType.values()[appDataTest.getInt(SEARCH_REQUEST, 0)];
         }
         super.onCreate(savedInstanceState);
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder(StrictMode.getVmPolicy())
+                .detectLeakedClosableObjects()
+                .build());
         switch (queryType) {
             case FIND_CELL:
                 findCell();

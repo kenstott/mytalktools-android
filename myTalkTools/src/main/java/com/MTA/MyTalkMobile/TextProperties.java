@@ -7,6 +7,7 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.preference.PreferenceManager;
 import android.view.KeyEvent;
 import android.widget.Button;
@@ -132,6 +133,9 @@ class TextProperties extends Dialog {
     @Override
     public final void onCreate(final Bundle paramBundle) {
         super.onCreate(paramBundle);
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder(StrictMode.getVmPolicy())
+                .detectLeakedClosableObjects()
+                .build());
         setContentView(R.layout.textproperties);
         setTitle(R.string.text_prop);
         SharedPreferences sp =

@@ -41,6 +41,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Looper;
+import android.os.StrictMode;
 import android.preference.PreferenceManager;
 import android.provider.ContactsContract;
 import android.provider.MediaStore;
@@ -2276,6 +2277,9 @@ public class Board extends Activity implements EasyPermissions.PermissionCallbac
         currentBoard = this;
         board = this;
         super.onCreate(bundle);
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder(StrictMode.getVmPolicy())
+                .detectLeakedClosableObjects()
+                .build());
         SharedPreferences settings =
                 PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         setContentView(R.layout.board);

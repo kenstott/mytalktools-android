@@ -6,6 +6,7 @@ package com.MTA.MyTalkMobile;
 import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.widget.EditText;
 
 import androidx.annotation.Keep;
@@ -44,6 +45,9 @@ class UtterPhrase extends Dialog {
     @Override
     protected final void onCreate(final Bundle paramBundle) {
         super.onCreate(paramBundle);
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder(StrictMode.getVmPolicy())
+                .detectLeakedClosableObjects()
+                .build());
         setContentView(R.layout.tts);
         setTitle(getContext().getResources().getString(R.string.enter_a_phrase)
                 + Locale.getDefault().getDisplayLanguage());

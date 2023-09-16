@@ -9,6 +9,7 @@ import android.app.Dialog;
 import android.app.TimePickerDialog;
 import android.content.Context;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -283,6 +284,9 @@ class Schedule extends Dialog {
 
     protected final void onCreate(final Bundle paramBundle) {
         super.onCreate(paramBundle);
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder(StrictMode.getVmPolicy())
+                .detectLeakedClosableObjects()
+                .build());
         setContentView(R.layout.schedule);
         setTitle("Edit Schedule");
 

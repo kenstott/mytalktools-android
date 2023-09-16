@@ -7,6 +7,7 @@ import android.app.Dialog;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -153,6 +154,9 @@ public class TrialCheck {
         @Override
         public final void onCreate(final Bundle paramBundle) {
             super.onCreate(paramBundle);
+            StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder(StrictMode.getVmPolicy())
+                    .detectLeakedClosableObjects()
+                    .build());
             this.requestWindowFeature(Window.FEATURE_NO_TITLE);
             setContentView(R.layout.select_license);
             setWebView();

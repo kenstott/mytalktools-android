@@ -8,6 +8,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.preference.PreferenceManager;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebView;
@@ -61,6 +62,11 @@ public class Welcome extends Activity {
     @Override
     public final void onCreate(final Bundle bundle) {
         super.onCreate(bundle);
+
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder(StrictMode.getVmPolicy())
+                .detectLeakedClosableObjects()
+                .build());
+
         setContentView(R.layout.welcome);
         WebView web = findViewById(R.id.welcomeWebView);
         web.getSettings().setJavaScriptEnabled(true);

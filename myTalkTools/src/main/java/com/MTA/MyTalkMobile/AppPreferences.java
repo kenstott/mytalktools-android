@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
@@ -189,6 +190,11 @@ public class AppPreferences extends PreferenceActivity implements OnSharedPrefer
     protected final void onCreate(final Bundle savedInstanceState) {
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         super.onCreate(savedInstanceState);
+
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder(StrictMode.getVmPolicy())
+                .detectLeakedClosableObjects()
+                .build());
+
         addPreferencesFromResource(R.xml.preferences);
         setTitle(R.string.mytalkmobile_preferences);
         pref = getPreferenceManager().findPreference(PREF_KEY_PHRASE_MODE);

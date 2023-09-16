@@ -219,7 +219,9 @@ public abstract class MyTalkWebService {
     final String getJsonResponse() throws Exception {
         if (response != null && response.getStatusLine().getStatusCode() == WEB_SERVICE_SUCCESS) {
             HttpEntity entity = response.getEntity();
-            return EntityUtils.toString(entity, UTF_82);
+            String result = EntityUtils.toString(entity, UTF_82);
+            hc.getConnectionManager().shutdown();
+            return result;
         }
         return null;
     }

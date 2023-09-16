@@ -11,6 +11,7 @@ import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.preference.PreferenceManager;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -233,6 +234,9 @@ class CreateNewAccount extends Dialog implements View.OnClickListener {
     @Override
     protected final void onCreate(final Bundle paramBundle) {
         super.onCreate(paramBundle);
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder(StrictMode.getVmPolicy())
+                .detectLeakedClosableObjects()
+                .build());
         setContentView(R.layout.newaccount);
         setTitle(R.string.create_new_account);
         this.okButton = findViewById(R.id.ButtonOk);

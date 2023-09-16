@@ -7,6 +7,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.widget.Button;
 import android.widget.Spinner;
 
@@ -64,6 +65,9 @@ class NewBoard extends Dialog {
      */
     protected final void onCreate(final Bundle paramBundle) {
         super.onCreate(paramBundle);
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder(StrictMode.getVmPolicy())
+                .detectLeakedClosableObjects()
+                .build());
         setContentView(R.layout.newboard);
         rowsEditText = findViewById(R.id.rowsEditText);
         columnsEditText = findViewById(R.id.columnsEditText);
